@@ -90,7 +90,8 @@ nav ul a{
 }
 
 .banner-img-parrent{
-    text-align: center;
+    max-width: 1440px;
+    margin: auto;
     padding-bottom: 45px;
 }
 
@@ -314,4 +315,31 @@ nav ul a{
     font-weight: 400;
     text-align: center;
     padding: 40px 0 40px 0;
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+
+    nav h1{
+        margin-bottom: 15px;
+    }
+
+    nav ul li{
+        margin: 0;
+    }
+
+    nav ul{
+        gap: 25px;
+    }
+
+    .banner-img-parrent > img{
+        width: 100%;
+    }
+
 }
