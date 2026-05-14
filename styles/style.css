@@ -354,4 +354,56 @@ nav ul a{
         margin-left: 25px;
     }
 
+    .main-container-2{
+        flex-direction: column;
+    }
+
+    .img-and-offer > img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .btn-10-year{
+        margin: auto;
+        margin-top: -70px;
+        margin-left: 100px;
+    }
+
+    .btn-year{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .card-head-desc{
+        margin: 0;
+        margin-left: 25px;
+    }
+
+    .card-container{
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .card-container div{
+        width: 50%;
+    }
+
+    .card-parrent{
+        margin-bottom: 25px;
+    }
+
+    .footer-img-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-3-title{
+        margin-left: 25px;
+    }
+
+    .main-3-desc{
+        margin-left: 25px;
+    }
 }
